@@ -31,4 +31,7 @@ _obs: ler via https://nbviewer.org/ impede que as visualizações do Plotly desa
 1. [Tratamento dos dados de Bitcoin](Tratamento_BTC.ipynb)
 2. [Tratamento dos dados do Reddit](Tratamento_Reddit.ipynb)
 3. [Análise Exploratória de Dados](EDA.ipynb)
-4. [Aprendizado de Máquina](`Final_Aprendizado_de_Máquina`.ipynb)
+4. [Aprendizado de Máquina](`https://github.com/Yamamuen/MBA_thesis/blob/main/Final__Aprendizado_de_M%C3%A1quina.ipynb)
+
+
+[Textual em PDF](TCC_final.pdf)
