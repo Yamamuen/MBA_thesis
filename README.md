@@ -3,27 +3,32 @@
 ## Tese de Conclusão de Curso - MBA USP São Paulo - Ciência de Dados (turma de 2021)
 ### Orientador: Jó Ueyama
 
-Neste trabalho buscamos averiguar se existe ganho informacional no que tange a antecipação
-de tendências do Bitcoin considerando sentimentos manifestados no fórum Reddit como
-indicativo de humor de mercado. Em janeiro de 2021, usuários de um sub-fórum do Reddit,
-/wallstreetbets, causaram, sozinhos, o short squeeze histórico nas ações da GameStop: em
-protesto contra grandes grupos financeiros apostando na queda da ação, se coordenaram
-na plataforma e compraram o ativo em massa, gerando grandes perdas para os que estavam
-vendidos e ganhos exorbitantes para os que participaram do movimento. Consequentemente,
-vários fundos passaram a monitorar não só o sentimento mas o volume de menções a ativos
-específicos no fórum. Buscamos averiguar se influência análoga pode ser observada entre
-2015 e 2019 para a criptomoeda Bitcoin, trazendo ganhos preditivos.
-
-Estabelecemos que há associação positiva com indícios de causalidade, com sentimentos do
-Reddit antecipando oscilações no Bitcoin, e concluímos ajustando um modelo de Long Short
-Term Memory aos dados, obtendo uma previsão precisa nos dados de teste. Concluímos que
-o Reddit (e potencialmente outras mídias sociais), pelo menos para Bitcoin e com base no
-período estudado, pode agregar riqueza preditiva, efetivamente servindo como proxy para
-tendências e sentimentos online, dado seu formato irrestrito (que permite desde notícias,
-opiniões até conteúdo humorístico) e a quantidade de usuários interagindo diariamente
-na plataforma. O que reforça a natureza do ativo, ao menos no período considerado, de
-investimento especulativo e não de reserva de valor, sendo portanto altamente suscetível a
-emoções ou percepções coletivas e movimentos de manada.
+A Hipótese do Mercado Eficiente argumenta que preços de ativos refletem de forma
+eficiente toda informação disponível, com fatos inéditos sendo a única fonte de oscilações.
+Notícias inédias são inerentemente impossíveis de antever, impossibilitando qualquer
+estratégia de gerar lucros consistentes prevendo preços. Contudo, com o advento da Era da
+Informação e aumento massivo de dados disponíveis, a tarefa de compilar e processar toda
+informação disponível se tornou um problema de Big Data, com todas suas complexidades
+e oportunidades inerentes. Atualmente, a mídia tradicional de notícias se tornou apenas
+uma dentre uma miríade de fontes de informação, com muitos já preferindo se informar via
+plataformas sociais. Logo, agentes humanos tem muito mais dados tanto para coletar quanto
+para processar antes de tomarem decisões financeiras, o que pode gerar períodos em que os
+preços dos ativos ainda não refletem plenamente todas as informações. Alternativamente,
+um algoritmo pode processar gigabytes de informação e gerar acionáveis em questão de
+segundos, talvez até antecipando tendências de mercado antes mesmo que suas contrapartes
+humanas possam gerá-las. O intuito deste estudo é de analisar se a consideração de mídias
+sociais pode ajudar a prever tais tendências, efetivamente contribuindo para gerar ganhos
+em estratégias de investimento. Para tanto, utilizaram-se dados de comentários do Reddit
+como proxy para sentimento de mercado em relação ao Bitcoin, uma criptomoeda renomada
+pela sua natureza especulativa, definida exclusivamente por sua demanda. Uma relação
+positiva é descoberta entre sentimentos agregados do Reddit acerca de Bitcoin e o preço
+em dólares da criptomeda, o que é reiterado por quão bem seu preço histórico teria sido
+predito em 2019 por um algoritmo de aprendizado profundo Long Short Term Memory,
+treinado apenas com o previsor de sentimentos agregados do Reddit entre 2015 e 2018.
+Logo, é provado que o uso de sentimentos de redes sociais é um meio eficaz para melhorar
+a previsão de tendências do Bitcoin (e potencialmente de outros ativos), o que pode ser o
+caso devido à sua natureza inerentemente especulativa ou até mesmo devido à concentração
+de sua demanda no Reddit durante o período considerado
 
 ### Etapas
 _obs: ler via https://nbviewer.org/ impede que as visualizações do Plotly desapareçam._
